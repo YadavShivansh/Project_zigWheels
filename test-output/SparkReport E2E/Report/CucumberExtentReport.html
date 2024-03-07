@@ -1,0 +1,1495 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 5, 2024 11:28:48 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ZigWheels End To End</p>
+            <p class="text-sm">
+              <span>11:28:49 AM</span> / <span>00:04:56:907</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ZigWheels End To End</h5>
+<span class='badge badge-success'>03.05.2024 11:28:49 AM</span>
+<span class='badge badge-danger'>03.05.2024 11:33:46 AM</span>
+<span class='badge badge-default'>00:04:56:907</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Zigwheels Web app functionalities</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Zigwheels Web app functionalities</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Homepage of ZigWheels</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then ZigWheels logo should be displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Searchbox should be displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Login button should be displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And scrollbar is present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User hover on New Bikes Dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Dropdown options Should be displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicks on the "Upcoming Bikes"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded8.png' src="../Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user is nevigated to the upcoming bikes page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded9.png' src="../Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user  mapulated to the manufacturer dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded10.png' src="../Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user select "Honda"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded11.png' src="../Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User scroll and click View More</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded12.png' src="../Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then List of the bikes is displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded13.png' src="../Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User is nevigated back to Zigwheels homepage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded14.png' src="../Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user Hover on Used Cars</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded15.png' src="../Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Dropdown is displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded16.png' src="../Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Clicks on the search Bar</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded17.png' src="../Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Search Options is displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded18.png' src="../Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User is nevigated back to ZigWheels homepage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded19.png' src="../Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User hover on Used Cars</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded20.png' src="../Screenshots/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User select "Chennai" in Location options</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded21.png' src="../Screenshots/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is nevigated to the Used Cars page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded22.png' src="../Screenshots/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User scroll till list of popular Brands</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded23.png' src="../Screenshots/embedded23.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User scoll popular model list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded24.png' src="../Screenshots/embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User selects brands and displays cars list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded25.png' src="../Screenshots/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User is nevigated back to Zigwheels homepage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded26.png' src="../Screenshots/embedded26.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the User clicks on New Bikes</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded27.png' src="../Screenshots/embedded27.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks displacement filter</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded28.png' src="../Screenshots/embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects bike a displacement range "126cc - 150cc bikes"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded29.png' src="../Screenshots/embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Displays Bike name and Displacement</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded30.png' src="../Screenshots/embedded30.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User is nevigated back to Zigwheels homepage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded31.png' src="../Screenshots/embedded31.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The User clicks on New Cars</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded32.png' src="../Screenshots/embedded32.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The User select Fuel Type filter</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded33.png' src="../Screenshots/embedded33.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The User selcet Fuel Type "Diesel"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded34.png' src="../Screenshots/embedded34.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Validate the Displayed result with "Diesel"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded35.png' src="../Screenshots/embedded35.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User is nevigated back to Zigwheels homepage</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded36.png' src="../Screenshots/embedded36.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User hover on More in Header</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded37.png' src="../Screenshots/embedded37.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Sell Car to Cardekho Gaadi Store</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded38.png' src="../Screenshots/embedded38.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is nevigated to the Car dekho home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Zigwheels Web app functionalities
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded39.png' src="../Screenshots/embedded39.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="84"><span class="badge log pass-bg mr-2">Pass</span>Google login with Invalid mail</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="85"><span class="badge log pass-bg mr-2">Pass</span>Google login with Invalid mail</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Homepage of ZigWheels</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Invalid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded40.png' src="../Screenshots/embedded40.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Invalid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded41.png' src="../Screenshots/embedded41.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then select google as login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Invalid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded42.png' src="../Screenshots/embedded42.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user nevigates to login window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Invalid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded43.png' src="../Screenshots/embedded43.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User enter "werwer_gmail.com" email</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Invalid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded44.png' src="../Screenshots/embedded44.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click the Next button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Invalid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded45.png' src="../Screenshots/embedded45.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then display the Error message</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Invalid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded46.png' src="../Screenshots/embedded46.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="102"><span class="badge log pass-bg mr-2">Pass</span>Google login with Valid mail</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="103"><span class="badge log pass-bg mr-2">Pass</span>Google login with Valid mail</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Homepage of Zigwheels</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded47.png' src="../Screenshots/embedded47.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded48.png' src="../Screenshots/embedded48.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user select google as login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded49.png' src="../Screenshots/embedded49.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user nevigates to login window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded50.png' src="../Screenshots/embedded50.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters "shiavm35@gmail.com" email</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded51.png' src="../Screenshots/embedded51.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User clicks the Next button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded52.png' src="../Screenshots/embedded52.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter the invalid "aldh@124"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded53.png' src="../Screenshots/embedded53.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User clicks the Next button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded54.png' src="../Screenshots/embedded54.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then display the Password error message</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Google login with Valid mail
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded55.png' src="../Screenshots/embedded55.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="124"><span class="badge log pass-bg mr-2">Pass</span>Facebook login Validations</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="125"><span class="badge log pass-bg mr-2">Pass</span>Facebook login Validations</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Homepage of Zigwheels</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded56.png' src="../Screenshots/embedded56.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded57.png' src="../Screenshots/embedded57.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then select Facebook as login option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded58.png' src="../Screenshots/embedded58.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user nevigates to login window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded59.png' src="../Screenshots/embedded59.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user Enters Invalid mail/ph "werst12@gmail.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded60.png' src="../Screenshots/embedded60.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user Enters Invalid Password "o85348jfej"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded61.png' src="../Screenshots/embedded61.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then clicks Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded62.png' src="../Screenshots/embedded62.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then displays the facebook message</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded63.png' src="../Screenshots/embedded63.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="144"><span class="badge log pass-bg mr-2">Pass</span>Facebook login Validations</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Homepage of Zigwheels</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded64.png' src="../Screenshots/embedded64.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded65.png' src="../Screenshots/embedded65.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then select Facebook as login option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded66.png' src="../Screenshots/embedded66.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user nevigates to login window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded67.png' src="../Screenshots/embedded67.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user Enters Invalid mail/ph "9983499384"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded68.png' src="../Screenshots/embedded68.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user Enters Invalid Password "o85348jfe"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded69.png' src="../Screenshots/embedded69.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then clicks Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded70.png' src="../Screenshots/embedded70.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then displays the facebook message</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefination.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Facebook login Validations
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded71.png' src="../Screenshots/embedded71.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 5, 2024 11:28:48 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 5, 2024 11:33:46 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>142</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"ZigWheels End To End":296.907
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 142,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
