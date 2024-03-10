@@ -56,20 +56,20 @@ public class stepDef1 {
 	@Then("ZigWheels logo should be displayed")
 	public void zig_wheels_logo_should_be_displayed() {
 
-		fE.cheakLogo();
+		Assert.assertTrue(fE.cheakLogo());
 
 	}
 
 	@Then("Searchbox should be displayed")
 	public void searchbox_should_be_displayed() {
 
-		fE.cheakSearchbox();
+		Assert.assertTrue(fE.cheakSearchbox());
 	}
 
 	@Then("Login button should be displayed")
 	public void login_button_should_be_displayed() {
 
-		fE.cheakloginbtn();
+		Assert.assertTrue(fE.cheakloginbtn());
 	}
 
 	@Then("scrollbar is present")

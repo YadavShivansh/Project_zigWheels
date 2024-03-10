@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 public class fundamentalElement extends BasePage {
 
@@ -27,7 +26,7 @@ public class fundamentalElement extends BasePage {
 	@FindBy(xpath = "//input[@id='headerSearch']")
 	public WebElement searchbox;
 
-	@FindBy(xpath = "//div[@id='des_lIcon']")
+	@FindBy(xpath = "//div[@id='forum_login_title_lg']")
 	public WebElement btn;
 
 	@FindBy(xpath = "//a[normalize-space()='More']")
@@ -36,23 +35,26 @@ public class fundamentalElement extends BasePage {
 	@FindBy(xpath = "//span[normalize-space()='Sell Car to Cardekho Gaadi Store']")
 	public WebElement sellCar;
 
-	public void cheakLogo() {
+	public boolean cheakLogo() {
 
 		wait.until(ExpectedConditions.visibilityOf(logo));
-		Assert.assertTrue(logo.isDisplayed());
+//		Assert.assertTrue(logo.isDisplayed());
+		return logo.isDisplayed();
 	}
 
-	public void cheakSearchbox() {
+	public boolean cheakSearchbox() {
 
-		Assert.assertTrue(searchbox.isDisplayed());
+		return searchbox.isDisplayed();
 	}
 
-	public void cheakloginbtn() {
+	public boolean cheakloginbtn() {
 
-		btn.isDisplayed();
+		wait.until(ExpectedConditions.visibilityOf(btn));
+		return btn.isDisplayed();
 	}
 
 	public void hoverMore() {
+
 		act.moveToElement(more).perform();
 	}
 

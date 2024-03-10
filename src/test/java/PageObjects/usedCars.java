@@ -147,7 +147,7 @@ public class usedCars extends BasePage {
 			}
 
 			// js.executeScript("arguments[0].scrollIntoView();", scrollCar);
-			js.executeScript("window.scrollBy(0,450)", "");
+			js.executeScript("window.scrollBy(0,-450)", "");
 			js.executeScript("arguments[0].click();", selectBrnds.get(i));
 
 		}
